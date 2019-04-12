@@ -1,0 +1,5 @@
+'#' ignore hitory
+
+*.idea/
+*out/
+*.iml
