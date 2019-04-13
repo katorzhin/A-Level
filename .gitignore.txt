@@ -1,4 +1,0 @@
-#folder .idea
-idea/
-out
-out/
