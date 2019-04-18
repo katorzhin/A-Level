@@ -9,9 +9,9 @@ public class HorseTurnInChess {
     public static boolean checkTurn() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter first horse position in format '[Letter][Number]'->");
-        final String firstPosition = scanner.nextLine();
+        String firstPosition = scanner.nextLine();
         System.out.println("Enter second horse position in format '[Letter][Number]'->");
-        final String secondPosition = scanner.nextLine();
+        String secondPosition = scanner.nextLine();
         if (!(checkCellFormat(firstPosition) && checkCellFormat(secondPosition))) {
             System.out.println("Not suitable format");
             return false;
