@@ -1,4 +1,4 @@
-package lesson16;
+package homeWork.praciceGenerics;
 
 public class CountAggregator<T1> implements Aggregator<T1, Integer> {
 

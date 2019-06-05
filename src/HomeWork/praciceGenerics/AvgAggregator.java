@@ -1,4 +1,4 @@
-package lesson16;
+package homeWork.praciceGenerics;
 
 public class AvgAggregator implements Aggregator<Integer, Integer> {
 
