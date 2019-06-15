@@ -4,11 +4,11 @@ public class HuffmanTree implements Comparable<HuffmanTree> {
     public final int frequency;
 
     public HuffmanTree(int freq) {
-        frequency = freq;
+        this.frequency = freq;
     }
 
     @Override
-    public int compareTo(HuffmanTree o) {
-        return 0;
+    public int compareTo(HuffmanTree tree) {
+        return frequency - tree.frequency;
     }
 }
